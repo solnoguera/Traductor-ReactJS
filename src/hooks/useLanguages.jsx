@@ -7,11 +7,13 @@ export default function useLanguages() {
 
     useEffect(()=>{
       const lang = localStorage.getItem("languages");
-      const splitted = lang.split(',')
-      const languages = splitted.map((isoCode) => {
-        return { name: ISO6391.getName(isoCode), isoCode}
-      })
-      setLanguages(languages)
+      if(lang){
+        const splitted = lang.split(',')
+        const languages = splitted.map((isoCode) => {
+          return { name: ISO6391.getName(isoCode), isoCode}
+        })
+        setLanguages(languages)
+      }
     },[])
     
   return { languages }

@@ -51,6 +51,9 @@
   width: 20px;
   margin-left: 20px;
 }
+.arrow:hover{
+  cursor: pointer;
+}
 
 .languages{
   padding-left: 20px;
