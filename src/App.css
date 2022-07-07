@@ -8,7 +8,7 @@
 }
 
 .translator {
-  margin: 40px;
+  margin: 50px;
 }
 
 .current-lang{
@@ -32,7 +32,7 @@
 }
 
 .traducir{
-  background-color: #0d6efd;
+  background-color: #3485ff;
   color: white;
   margin: 25px 0px;
   height: 30px;
@@ -72,7 +72,7 @@
 }
 
 .navbar{
-  border-bottom: #b7b7b7 2px solid;
+  border-bottom: #b7b7b7 1px solid;
 }
 
 .flex{

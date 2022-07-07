@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { context } from "../context/LanguagesProvider";
 import useLangTarget from "../hooks/useLangTarget";
-import LanguageSelector from "./LanguageSelector";
+import SelectLanguage from "./SelectLanguage";
 
 export default function TranslatedText() {
 
@@ -10,7 +10,7 @@ export default function TranslatedText() {
   
   return (
     <div>
-      <LanguageSelector selectLanguage={selectTargetLanguage} current={langTarget}/>
+      <SelectLanguage selectLanguage={selectTargetLanguage} current={langTarget}/>
       <p className="translated-text bottom-rounded border"> { userInput.translated } </p>
     </div>
   );

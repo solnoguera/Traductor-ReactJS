@@ -3,10 +3,9 @@ import ISO6391 from "iso-639-1";
 import { Nav } from "react-bootstrap";
 import MoreLanguages from "./MoreLanguages";
 
-export default function LanguageSelector({ selectLanguage, current }) {
+export default function SelectLanguage({ selectLanguage, current }) {
 
   const handleSelect = (selectedKey) => {
-    console.log({selectedKey})
     selectLanguage(selectedKey)
   }
   return (
