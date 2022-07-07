@@ -9,7 +9,7 @@ export default function SelectLanguage({ selectLanguage, current }) {
     selectLanguage(selectedKey)
   }
   return (
-    <div className="border top-rounded">
+    <div className="border top-rounded selector">
       <Nav onSelect={handleSelect}>
         <Nav.Item>
           <Nav.Link eventKey={current} >

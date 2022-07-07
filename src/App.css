@@ -11,9 +11,14 @@
   margin: 50px;
 }
 
+.selector{
+  font-size: 16px;
+}
+
 .current-lang{
   font-weight: bold;
   text-decoration: underline;
+  font-size: 17px;
 }
 
 .input {
@@ -72,7 +77,9 @@
 }
 
 .navbar{
+  background-color: #f6f6f6;
   border-bottom: #b7b7b7 1px solid;
+  height: 58px;
 }
 
 .flex{
