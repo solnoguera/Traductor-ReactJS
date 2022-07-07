@@ -22,7 +22,7 @@ function SolLogo() {
         <span id="yellow">o</span>
         <span id="green">l</span>
       </div>
-      <span id="traductor"> Traductor</span>
+      <span id="traductor"> Translator</span>
     </div>
   );
 }
