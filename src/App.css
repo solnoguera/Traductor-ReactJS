@@ -46,10 +46,12 @@
 }
 
 .buscador{
-  width: 90%;
+  width: 85%;
   height: 30px;
   font-size: 16px;
   padding: 8px;
+  border: 1px solid rgb(171, 171, 171);
+  border-radius: 3px;
 }
 
 .arrow{
@@ -78,7 +80,7 @@
 
 .navbar{
   background-color: #f6f6f6;
-  border-bottom: #b7b7b7 1px solid;
+  border-bottom: #cacaca 1px solid;
   height: 58px;
 }
 
@@ -89,6 +91,11 @@
 .logo{
   font-weight: bold;
   margin-right: 6px;
+}
+
+.x{
+  width: 25px;
+  cursor: pointer;
 }
 
 #red{
@@ -120,4 +127,5 @@
 }
 .language:hover{
   background-color: rgb(159, 222, 221);
+  font-weight: bold;
 }

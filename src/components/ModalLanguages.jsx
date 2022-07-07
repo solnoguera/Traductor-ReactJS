@@ -30,7 +30,7 @@ export default function ModalLanguages({ onHide, showModal, selectLanguage }) {
         <input type="search" placeholder='Buscar Idioma...' className="buscador" 
         onChange={handleOnChange}
         />
-        <img src={x} alt="x" width={25} onClick={onHide}/>
+        <img src={x} alt="x" className='x' onClick={onHide}/>
       </Modal.Header>
       <Modal.Body>
 

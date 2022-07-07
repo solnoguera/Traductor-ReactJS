@@ -26,7 +26,7 @@ export default function SelectLanguage({ selectLanguage, current }) {
           <Nav.Link eventKey="es">SPANISH</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link eventKey="pt">PORTUGUESE</Nav.Link>
+          <Nav.Link eventKey="fr">FRENCH</Nav.Link>
         </Nav.Item>
         <MoreLanguages selectLanguage={selectLanguage}/>
       </Nav>
