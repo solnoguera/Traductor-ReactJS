@@ -3,9 +3,7 @@ import getAxiosRequest from "./requestService";
 export default async function translate (text, source, target) {
     const API_KEY = process.env.REACT_APP_BASE_API_KEY;
     const API_HOST = process.env.REACT_APP_BASE_API_HOST;
-    console.log({text})
-    console.log({source})
-    console.log({target})
+
     const encodedParams = new URLSearchParams();
     encodedParams.append("q", text);
     encodedParams.append("target", target);
